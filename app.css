@@ -2,14 +2,20 @@ body{
   background-color: blue;
 }
 
+ul, ol{
+  list-style: none;
+}
+
 #left{
   float: left;
   width: 50%;
-  background: linear-gradient(#234fA3, #8F04BC);
+  height: 500px;
+  background: linear-gradient(#D348A3, #8F04BC);
 }
 
 #right{
   float: left;
   width: 50%;
+  height: 500px;
   background: linear-gradient(#D348A3, #8F04BC);
 }
