@@ -6,11 +6,12 @@ var View = function(){
 };
 
 View.prototype.init = function(){
+  var self = this;
   this.addTaskForm.addEventListener('submit', function( event ){
     event.preventDefault();
     input = event.target.querySelector('[name="taskName"]').value
     this.controller.createTask(input);
-  }.bind(this));
+  }.bind(self));
 };
 
 View.prototype.addTaskToList = function( htmlTask ){
