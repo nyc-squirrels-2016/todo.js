@@ -1,0 +1,15 @@
+body{
+  background-color: blue;
+}
+
+#left{
+  float: left;
+  width: 50%;
+  background: linear-gradient(#234fA3, #8F04BC);
+}
+
+#right{
+  float: left;
+  width: 50%;
+  background: linear-gradient(#D348A3, #8F04BC);
+}
